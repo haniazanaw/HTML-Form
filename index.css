@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('Poppins-Light.ttf');
+}
+body {
+    font-family: poppins;
+    font-size: large;
+}
+.index_form {
+    margin: 0 auto;
+    width: 45%;
+    padding: 5px 25px;
+  
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.index_form input {
+    padding: 15px 15px;
+    width: 97%;
+    border: solid 1px;
+    margin: 5px 0;
+    border-radius: 9px;
+}
+.index_form button {
+    padding: 14px 20px;
+    width: 98%;
+    background: none;
+    border: none;
+    background-color: rgb(207, 90, 218);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+#agreement {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#agreement_label {
+    font-size: 14.5px;
+}
+a {
+    text-decoration: none;
+    color: purple
+}
+.lines {
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+}
+.lines:before,
+.lines:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background: darkgray;
+}
+.lines:before {
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+}
+.lines:after {
+    width: 188px;
+    position: absolute;
+    top: 50%;
+    left: 312px;
+    right: 10%;
+}
+i {
+    margin-inline-start: 165px;
+}
+#google {
+    border: none;
+    width: 30px;
+    height: 25px;
+    box-shadow: rgb(175, 172, 172) 0 2px 4px 0;
+    font-size: 30px;
+    padding: 20px;
+}
+#facebook {
+    font-size: 28px;
+    margin-left: 50px;
+}
+h3 {
+    font-size: 18px;
+}
+#signup_button:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px;
+}
+.container{
+    display: flex;
+    border: solid 0px;
+    margin: 0 auto;
+    width: 55%;
+    
+    box-shadow: #D8D5D5 5px 5px 5px 5px, -5px -5px 5px 5px rgb(221, 218, 218);
+    height: auto;
+    gap: 5%;
+}
+.container img{
+    width: 50%;
+    height: 100%;
+}
+.icons{
+    display: flex;
+    gap: 7%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.icons .google{
+    display: flex;
+    border: solid 1px ;
+    padding: 0.5% 5%;
+
+    border-radius: 10px;
+}
+.icons .facebook{
+    display: flex;
+    border: solid 1px ;
+    padding: 0.5% 5%;
+    border-radius: 10px;
+}
+#next{
+    margin-left: 20%;
+}
+span{
+    color: purple;
+}
