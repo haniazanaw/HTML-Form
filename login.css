@@ -1,5 +1,9 @@
+body{
+    background-image: url("https://slidescorner.com/wp-content/uploads/2023/08/04-700x394.jpg.webp");
+}
+
 .form{
-    
+    background-color: white;
     border: solid 1px;
     width: 150%;
     padding: 10px 16px;
@@ -38,4 +42,7 @@
     display: flex;
      border:none;
 
+}
+img{
+    height:100%
 }
